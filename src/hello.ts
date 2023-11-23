@@ -1,8 +1,8 @@
-class Hello {
+export class Hello {
   async hello(name: string) {
     const str = `retornando ${name}`
     return str;
   }
 }
 
-export { Hello };
+export { Hello as default };
