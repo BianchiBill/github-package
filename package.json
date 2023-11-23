@@ -10,7 +10,7 @@
     "./dist"
   ],
   "scripts": {
-    "build": "webpack build --config webpack.config.js"
+    "build": "webpack build --config webpack.config.cjs"
   },
   "repository": {
     "type": "git",

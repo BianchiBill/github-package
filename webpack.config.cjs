@@ -11,7 +11,7 @@ module.exports = {
     clean: true,
   },
   resolve: {
-    extensions: ['.ts', '.js'],
+    extensions: ['.ts', '.js', '.mjs', '.json'],
   },
   module: {
     rules: [
