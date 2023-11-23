@@ -1,5 +1,6 @@
 export class Hello {
-  async hello() {
-    return 'Hello World!';
+  async hello(name: string) {
+    const str = `retornando ${name}`
+    return str;
   }
 }
