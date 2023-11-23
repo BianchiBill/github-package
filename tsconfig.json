@@ -7,8 +7,8 @@
       "es2023"
     ],
     "target": "ES2021",
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "outDir": "./build",
     "strict": true,
     "allowUnusedLabels": false,
