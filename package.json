@@ -7,7 +7,7 @@
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "./dist"
+    "dist"
   ],
   "scripts": {
     "build": "webpack build --config webpack.config.cjs"

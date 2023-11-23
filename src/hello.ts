@@ -1,5 +1,5 @@
 export class Hello {
-  async hello(name: string) {
+  async hello(name: string): Promise<string> {
     const str = `retornando ${name}`
     return str;
   }
